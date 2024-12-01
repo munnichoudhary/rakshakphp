@@ -1,0 +1,12 @@
+CREATE TABLE bp(
+    id int NOT NULL AUTO_INCREMENT,
+   userid varchar(200) NOT NULL,
+    username varchar(200) NOT NULL,
+    email varchar(200) NOT NULL,
+    mobile text NOT NULL,
+    gender varchar(6) NOT NULL,
+    bp varchar(6) NOT NULL,
+currentDate varchar(11) NOT NULL,
+currentTime varchar(11) NOT NULL,
+    CONSTRAINT bp_pk PRIMARY KEY (id)
+); 
